@@ -1,0 +1,35 @@
+/* input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+} */
+.login {
+  display: flex;
+  position: relative;
+}
+
+.login .fist_img {
+  position: absolute;
+  width: 593px;
+  height: 418px;
+  left: 160px;
+  top: 320px;
+  z-index: 2; /* Đặt z-index để đảm bảo hình ảnh thứ nhất nằm trên cùng */
+}
+.login .last_img {
+  position: relative;
+  z-index: 1;
+  left: 142px;
+  top: 223px;
+  bottom: 314px;
+  height: 682px;
+
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}

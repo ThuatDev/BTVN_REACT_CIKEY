@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+  .login .fist_img,
+  .login .last_img {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 56px 16px 0 16px;
+  }
+
+  .container .login_name {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+
+  .container .create_now {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .container input[type="email"],
+  .container input[type="password"] {
+    width: 95%;
+  }
+
+  .input-wrapper {
+    width: 100%;
+  }
+  .input-wrapper .toggle-password {
+    position: absolute;
+    top: 36%;
+    right: 3%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  .container .login-btn,
+  .container button {
+    width: 95%;
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .container button {
+    width: 100%;
+    font-size: 18px;
+    line-height: 120%;
+  }
+
+  .container .line {
+    margin-left: 0;
+    margin: 0 auto;
+    margin-bottom: 12px;
+  }
+
+  .container .line hr {
+    flex-grow: 1;
+    height: 0.8px;
+    background-color: #0e4a67;
+    margin: 0 10px;
+    width: 80px;
+  }
+
+  .container .line span {
+    font-size: 14px;
+  }
+}

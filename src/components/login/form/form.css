@@ -1,0 +1,148 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 101.32px;
+  margin-left: auto;
+  width: 559.03px;
+  margin-bottom: 94px;
+}
+.container .login_name {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42.9106px;
+  line-height: 54px;
+  color: #0e4a67;
+  margin-bottom: 22.5px;
+}
+.container .create_now {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.0714px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.595981px;
+  color: #37677e;
+  /* xóa đi gạch chân của thẻ link  */
+  text-decoration: none;
+  margin-bottom: 42px;
+}
+.container .create_now span {
+  color: #ee5757;
+}
+
+/* Các luật CSS khác của form */
+.container label {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #207198;
+}
+
+.container input[type="email"],
+.container input[type="password"] {
+  padding: 15px 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #207198;
+  width: 400.03px;
+}
+
+.container .login-btn {
+  padding: 15px 10px;
+
+  background: linear-gradient(271.15deg, #fe904b 7.64%, #fb724c 90.68%), #ee5757;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 401.03px;
+  justify-content: center;
+  display: flex;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.2231px;
+  line-height: 120%;
+}
+
+.container .forgot-password {
+  color: #37677e;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.container .line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+.container .line hr {
+  flex-grow: 1;
+  height: 0.8px;
+  background-color: #0e4a67;
+  margin: 0 10px;
+  width: 80px;
+}
+
+.container .line span {
+  font-weight: bold;
+  color: #0e4a67;
+  /* cho item vô giữa */
+}
+
+.container button {
+  display: flex;
+  align-items: center;
+  padding: 15px 10px;
+
+  background-color: #e3f1fe;
+  border: 1px solid #207198;
+  border-radius: 5px;
+  color: #0e4a67;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 421.03px;
+  /* cho item vô giữa  */
+  justify-content: center;
+}
+
+.container button i {
+  margin-right: 10px;
+}
+.container .facebook-btn:hover,
+.container .google-btn:hover {
+  background-color: #cbe7fd;
+}
+
+/* css cho icon */
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.input-wrapper input[type="password"] {
+  /* padding-right: 30px; */
+}
+
+.input-wrapper .toggle-password {
+  position: absolute;
+  top: 36%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.input-wrapper .toggle-password i {
+  color: #aaa;
+}
+
+.input-wrapper .toggle-password:hover i {
+  color: #333;
+}
